@@ -1,0 +1,196 @@
+/* body .desc1{
+    font-family: 'Roboto', sans-serif !important;
+}
+.image-sec-sub {
+    width: 100%;
+}
+
+.desc {
+    background-image: url("../images/Backround_01.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.spl-case {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*--------2--------------------*/
+
+.sec2-space {
+    margin: 5% 0;
+}
+
+.sec {
+    padding-bottom: 2%;
+}
+
+.text h2 {
+    padding: 10% 0 0 0;
+    line-height: normal;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*--------3---------------------*/
+
+.hover figure:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.space-sec {
+    padding: 2% 15px;
+}
+
+.spl-case-amaze {
+    padding: 1% 15px;
+}
+
+@media (max-width:768px) {
+    .p_0-pad {
+        padding: 0%;
+    }
+    .text h2 {
+        padding: 10% 0 0 0;
+        line-height: normal;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:1000px) {}
+
+
+/*Sathish Styles */
+
+.bg_cashback {
+    background-image: url(../images/Cashback_frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 33%;
+    padding-bottom: 12%;
+}
+
+.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.just_center {
+    justify-content: center;
+}
+
+.list_cashback {
+    width: 60%;
+    margin-left: 18%;
+}
+
+.list_cashback ul li h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    font-family: roboto;
+    margin: 0;
+}
+
+.list_cashback ul li {
+    padding: 5px 0;
+    list-style: none;
+}
+
+.list_cashback ul li .right_icn {
+    color: #B2001A;
+    font-size: 30px;
+}
+
+.list_cashback .hr_tag {
+    font-family: roboto;
+    border-color: #000;
+    margin: 9px;
+}
+
+.lg_none {
+    display: none;
+}
+
+@media(max-width:1199px) {
+    .list_cashback .hr_tag {
+        margin: 10px 0;
+    }
+    .list_cashback {
+        width: 60%;
+        margin-left: 18%;
+    }
+    .bg_cashback {
+        padding-top: 25%;
+    }
+}
+
+@media(max-width:991px) {
+    .mbl_width {
+        width: 100%;
+    }
+    .list_cashback ul li h4 {
+        font-size: 15px;
+    }
+    .list_cashback .hr_tag {
+        margin: 4px 0;
+    }
+    .list_cashback ul li .right_icn {
+        font-size: 25px;
+    }
+    .list_cashback {
+        width: 62%;
+    }
+    .bg_cashback {
+        padding-top: 30%;
+    }
+}
+
+@media(max-width:768px) {
+    .mbl_none {
+        display: none;
+    }
+    .lg_none {
+        display: block;
+    }
+}
+
+
+/*Sathish Styles */ */
